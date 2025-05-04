@@ -16,7 +16,7 @@ const Skills = () => {
     {
       title: "Programming Languages",
       icon: Code,
-      skills: ["C", "Python", "JavaScript", "R Programming"]
+      skills: ["C", "Python", "Solidity", "R Programming"]
     },
     {
       title: "Web Development",
@@ -41,12 +41,12 @@ const Skills = () => {
     {
       title: "Data Visualization",
       icon: LineChart,
-      skills: ["MS Excel", "PowerBI"]
+      skills: ["MS Excel", "PowerBI", "Weka", "Tableau"]
     },
     {
-      title: "Other Interests",
+      title: "Relavent Coursework",
       icon: FileText,
-      skills: ["Blockchain", "DSA"]
+      skills: ["OS", "DSA", "OOPs"]
     }
   ];
   
