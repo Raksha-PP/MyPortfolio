@@ -29,6 +29,11 @@ const Certifications = () => {
       year: "2024"
     },
     {
+      title: "WIE CODE National Level 12h Hackathon",
+      organization: "IEEE SIT SB",
+      year: "2022, 2023, 2024"
+    },
+    {
       title: "Internal Smart India Hackathon",
       organization: "Siddaganga Institute of Technology",
       year: "2024"
