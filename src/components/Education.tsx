@@ -48,7 +48,7 @@ const Education = () => {
               <h4 className="text-orange-400 mb-2">Computer Science and Engineering (AI & ML)</h4>
               <p className="text-muted-foreground mb-2">Siddaganga Institute of Technology, Tumakuru</p>
               <div className="bg-dark-100 rounded px-3 py-1 inline-block">
-                <span className="text-sm text-orange-300">CGPA: 8.08</span>
+                <span className="text-sm text-orange-300">CGPA: 8.03</span>
               </div>
             </div>
           </div>
