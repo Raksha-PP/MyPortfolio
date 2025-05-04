@@ -29,15 +29,15 @@ const Projects = () => {
       ]
     },
     {
-      title: "Static Webpages",
-      description: "Design and development of multiple static websites for various purposes.",
+      title: "Blockchain-based Decentralized Voting System",
+      description: "Developed a secure and transparent voting system using Ethereum Blockchain to enhance reliability and trust in Voting.",
       icon: Globe,
-      technologies: ["HTML", "CSS", "JavaScript"],
+      technologies: ["Solidity", "Truffle", "Ganache", "Web3JS", "ReactJS"],
       details: [
-        "Responsive design implementation",
-        "Cross-browser compatibility",
-        "Modern UI/UX principles",
-        "Performance optimization"
+        "Implemented smart contracts for automated vote recording, validation and tallying",
+        "Developed a user-friendly interface using ReactJS",
+        "Conducted extensive research on gas cost optimization techniques in solidity",
+        "Presented a Conference Paper on the reserch conducted at ICSSES-2025"
       ]
     },
     {
