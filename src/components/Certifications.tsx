@@ -46,19 +46,7 @@ const Certifications = () => {
     }
   ];
 
-  const publications: Publication[] = [
-    {
-      title: "Optimizing Gas Costs in a Decentralized Voting System: A Smart Approach",
-      conference: "ICSSES-2025, Siddaganga Institute of Technology",
-      year: "2025"
-    },
-    {
-      title: "Blockchain - Enabled Hybrid Approach for Reliable Detection and Privacy Preservation of PII",
-      conference: "ICECIT-2025, Siddaganga Institute of Technology",
-      year: "2025"
-    }
-  ];
-  
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -165,3 +153,4 @@ const Certifications = () => {
 };
 
 export default Certifications;
+
