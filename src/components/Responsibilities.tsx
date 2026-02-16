@@ -24,6 +24,14 @@ const Responsibilities = () => {
     icon: Users,
     skills: ["Leadership", "Strategic Planning", "Member Engagement", "Coordination"]
   },
+    {
+    title: "IEEE Computer Society Vice Chair",
+    organization: "IEEE SIT SB",
+    period: "Present",
+    description: "Leading membership growth initiatives, organizing technical activities, and supporting strategic planning to strengthen student engagement within IEEE and the Computer Society.",
+    icon: Users,
+    skills: ["Leadership", "Strategic Planning", "Member Engagement", "Coordination"]
+  },
   {
     title: "Joint Secretary",
     organization: "IEEE SIT SB",
@@ -130,4 +138,5 @@ const Responsibilities = () => {
 };
 
 export default Responsibilities;
+
 
