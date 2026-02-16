@@ -17,7 +17,7 @@ const Responsibilities = () => {
   
   const roles: Role[] = [
   {
-    title: "Membership Development Committee Chair, IEEE Computer Society Vice Chair",
+    title: "Membership Development Committee Chair",
     organization: "IEEE SIT SB",
     period: "Present",
     description: "Leading membership growth initiatives, organizing technical activities, and supporting strategic planning to strengthen student engagement within IEEE and the Computer Society.",
@@ -138,5 +138,6 @@ const Responsibilities = () => {
 };
 
 export default Responsibilities;
+
 
 
