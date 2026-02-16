@@ -16,31 +16,40 @@ const Responsibilities = () => {
   const responsibilitiesRef = useRef<HTMLDivElement>(null);
   
   const roles: Role[] = [
-    {
-      title: "Joint Secretary",
-      organization: "IEEE SIT SB",
-      period: "2023 - Present",
-      description: "Coordinating events, designing posters, and managing team activities for the IEEE Student Branch.",
-      icon: Users,
-      skills: ["Communication", "Teamwork", "Leadership", "Event Management"]
-    },
-    {
-      title: "Campus Executive",
-      organization: "SkillVertex",
-      period: "2023 - Present",
-      description: "Conducting webinars, promoting the platform, and facilitating skill development opportunities for students.",
-      icon: Megaphone,
-      skills: ["Marketing", "Event Planning", "Public Speaking", "Networking"]
-    },
-    {
-      title: "CQMS",
-      organization: "NCC (ARMY WING)",
-      period: "2022 - Present",
-      description: "Leading cadets, managing resources, and participating in community service activities. NCC 'A' and 'B' certificate holder.",
-      icon: Award,
-      skills: ["Leadership", "Time Management", "Community Service", "Discipline"]
-    }
-  ];
+  {
+    title: "Membership Development Committee Chair, IEEE Computer Society Vice Chair",
+    organization: "IEEE SIT SB",
+    period: "Present",
+    description: "Leading membership growth initiatives, organizing technical activities, and supporting strategic planning to strengthen student engagement within IEEE and the Computer Society.",
+    icon: Users,
+    skills: ["Leadership", "Strategic Planning", "Member Engagement", "Coordination"]
+  },
+  {
+    title: "Joint Secretary",
+    organization: "IEEE SIT SB",
+    period: "2024 - 2025",
+    description: "Coordinating events, designing posters, and managing team activities for the IEEE Student Branch.",
+    icon: Users,
+    skills: ["Communication", "Teamwork", "Leadership", "Event Management"]
+  },
+  {
+    title: "Campus Executive",
+    organization: "SkillVertex",
+    period: "2023",
+    description: "Conducting webinars, promoting the platform, and facilitating skill development opportunities for students.",
+    icon: Megaphone,
+    skills: ["Marketing", "Event Planning", "Public Speaking", "Networking"]
+  },
+  {
+    title: "CQMS",
+    organization: "NCC (ARMY WING)",
+    period: "2024 - 2025",
+    description: "Leading cadets, managing resources, and participating in community service activities. NCC 'A' and 'B' certificate holder.",
+    icon: Award,
+    skills: ["Leadership", "Time Management", "Community Service", "Discipline"]
+  }
+];
+
   
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -121,3 +130,4 @@ const Responsibilities = () => {
 };
 
 export default Responsibilities;
+
