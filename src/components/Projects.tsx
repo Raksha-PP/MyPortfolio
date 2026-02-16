@@ -44,7 +44,7 @@ const Projects = () => {
       title: "PII Detection",
       description: "A project for detecting Personally Identifiable Information in documents.",
       icon: Shield,
-      technologies: ["Python", "Machine Learning"],
+      technologies: ["Python", "Machine Learning", "Blockchain"],
       details: [
         "Pattern recognition algorithms",
         "Data privacy compliance",
@@ -141,3 +141,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
