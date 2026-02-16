@@ -6,6 +6,7 @@ import Education from '@/components/Education';
 import Skills from '@/components/Skills';
 import Projects from '@/components/Projects';
 import Certifications from '@/components/Certifications';
+import Publications from "@/components/Publications"; 
 import Responsibilities from '@/components/Responsibilities';
 import Footer from '@/components/Footer';
 
@@ -42,6 +43,7 @@ const Index = () => {
         <Skills />
         <Projects />
         <Certifications />
+        <Publications />
         <Responsibilities />
       </main>
       <Footer />
@@ -50,3 +52,4 @@ const Index = () => {
 };
 
 export default Index;
+
